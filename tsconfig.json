@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": true,
+    "target": "esnext"
+  },
+  "include": ["src/lib.ts", "typings/*"]
+}

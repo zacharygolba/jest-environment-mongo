@@ -1,0 +1,27 @@
+{
+  "name": "jest-environment-mongo",
+  "version": "0.0.1",
+  "license": "(Apache-2.0 OR MIT)",
+  "author": "Zachary Golba <zachary.golba@postlight.com>",
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.ts",
+  "scripts": {
+    "build": "tsc --declaration --sourceMap",
+    "clean": "rm -rf *.log coverage dist"
+  },
+  "dependencies": {
+    "jest-environment-node": "^23.4.0",
+    "mongodb-memory-server": "^2.7.3",
+    "mongodb": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/mongodb-memory-server": "1.8.0",
+    "@types/jest": "23.3.10",
+    "prettier": "1.15.3",
+    "tslint": "5.11.0",
+    "tslint-config-airbnb": "5.11.1",
+    "tslint-config-prettier": "1.17.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "typescript": "3.2.1"
+  }
+}
