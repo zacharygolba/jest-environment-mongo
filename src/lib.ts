@@ -1,7 +1,7 @@
 /// <reference path="../typings/jest-environment-node.d.ts" />
 
 import NodeEnvironment from "jest-environment-node";
-import MongoMemoryServer from "mongodb-memory-server";
+import { MongoMemoryServer } from "mongodb-memory-server";
 
 export = MongoEnvironment;
 
