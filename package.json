@@ -1,6 +1,6 @@
 {
   "name": "jest-environment-mongo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "(Apache-2.0 OR MIT)",
   "author": "Zachary Golba <zachary.golba@postlight.com>",
   "main": "dist/lib.js",
